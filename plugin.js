@@ -24,7 +24,7 @@ CKEDITOR.plugins.add( 'languages',
 					style : new CKEDITOR.style(
 						{
 							element : 'span',
-							attributes : { 'lang' : parts[ 0 ] },
+							attributes : { 'lang' : parts[ 0 ] }
 						}),
 					onClick : function()
 					{
